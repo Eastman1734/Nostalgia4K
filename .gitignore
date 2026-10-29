@@ -1,0 +1,19 @@
+# Created by the installer or at run time
+.venv/
+tools/
+models/
+cache/
+logs/
+__pycache__/
+*.pyc
+desktop-settings.json
+# Video files and results
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.part.*
+*.plan
+*.onnx
+*.pth

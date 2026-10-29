@@ -1,0 +1,23 @@
+Nostalgia4K
+Copyright 2026 Aleksandr Balin
+
+The original source code of this project is licensed under the Apache License,
+Version 2.0 (see LICENSE). This license applies only to the author's original
+code and does not cover third-party components.
+
+Portions of sr_model.py are adapted from BasicSR (XPixelGroup/BasicSR),
+Copyright its authors, licensed under the Apache License 2.0
+(see LICENSE-BasicSR.txt).
+
+The Real-ESRGAN x2plus model weights are not included in this repository. They
+are downloaded at install/first run from the official Real-ESRGAN release
+(https://github.com/xinntao/Real-ESRGAN), BSD 3-Clause License
+(see LICENSE-RealESRGAN.txt).
+
+PyTorch, NVIDIA TensorRT, NumPy, ONNX, protobuf and FFmpeg are not included
+either. They are downloaded by the installer from their official sources and
+remain under their own licenses (TensorRT: NVIDIA software license; FFmpeg
+build by gyan.dev: see the license files in that download).
+
+NVIDIA, TensorRT, CUDA and NVENC are trademarks of NVIDIA Corporation. This
+project is independent and is not sponsored or endorsed by NVIDIA.

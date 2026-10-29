@@ -1,0 +1,23 @@
+Nostalgia4K Desktop 1.1 - validation
+
+12 automated tests passed, including:
+- Real-ESRGAN published weights and a full neural video/audio conversion loop.
+- Color vs grayscale and selected output dimensions.
+- Aspect-preserving 1080p/1440p/2160p dimensions.
+- Compression preset/CQ propagation to the conversion report.
+- GUI metadata inspection without loading CUDA.
+- Structured UTF-8/ASCII JSON messages for the UI.
+- Fractional frame rates, audio retention and incomplete-frame handling.
+
+All Python modules compile. All six PowerShell files pass a tree-sitter
+PowerShell syntax check. Russian PowerShell scripts are saved as UTF-8 with
+BOM for Windows PowerShell 5.1. CMD launchers use CRLF.
+
+Manual check on Windows (reported by the author): the program was installed,
+launched and ran stably. The automated tests above run on Linux without CUDA.
+The installer performs GPU checks on the target PC. Use a short preview first.
+
+The model architecture previously matched upstream BasicSR output exactly
+(max absolute difference 0.0); exported ONNX passed onnx.checker.
+Weights and vendor dependencies are downloaded during installation/first run
+and are not bundled in this source package.

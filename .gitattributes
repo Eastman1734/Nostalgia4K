@@ -1,0 +1,4 @@
+# Windows launchers need CRLF; PowerShell scripts are UTF-8 with BOM and are stored unchanged.
+*.cmd text eol=crlf
+*.ps1 -text
+*.py text eol=lf

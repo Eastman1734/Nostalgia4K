@@ -1,0 +1,5 @@
+# PyTorch with CUDA 12.8 is installed separately by Install.ps1.
+numpy==2.2.6
+onnx==1.17.0
+protobuf==5.29.5
+tensorrt-cu12==10.13.3.9
