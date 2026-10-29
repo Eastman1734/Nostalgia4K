@@ -6,6 +6,8 @@ Neural video upscaling (×2) for Windows x64 and NVIDIA RTX GPUs, with optional 
 
 This is an independent program; the neural network model was created by the Real-ESRGAN authors, not by NVIDIA, and no training is performed. This is an experimental build: start with the diagnostic check and a short preview.
 
+![Nostalgia4K main window](docs/screenshots/main.png)
+
 ## Install and run (graphical installer)
 
 1. Extract the **whole** repository or archive into a folder.

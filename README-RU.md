@@ -1,5 +1,7 @@
 # Nostalgia4K Desktop
 
+![Главное окно Nostalgia4K](docs/screenshots/main.png)
+
 ## Установщик и приложение с интерфейсом
 
 1. Распакуйте **весь архив** в удобную папку.
